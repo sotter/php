@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo `php /Users/tianshan/php/url2id.php  $1`

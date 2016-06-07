@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo `php /Users/tianshan/php/id2url.php $1`

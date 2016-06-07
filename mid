@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo `php /Users/tianshan/php/mid.php $1 $2`

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+echo `php  /Users/tianshan/php/cons.php $1 $2`
