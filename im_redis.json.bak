@@ -1,0 +1,179 @@
+{
+    "thread": 16,
+        "im_redis_com": [
+        {
+            "type": "master",
+            "host": "10.19.22.11",
+            "port": 11552,
+            "database": 0
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.16",
+            "port": 11552,
+            "database": 0
+        }
+    ],
+
+        "im_redis_subscribe": [
+        {
+            "type": "master",
+            "host": "10.19.22.11",
+            "port": 11552,
+            "database": 1
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.16",
+            "port": 11552,
+            "database": 1
+        }
+    ],
+
+        "im_redis_group": [
+        {
+            "type": "master",
+            "host": "10.19.22.11",
+            "port": 11552,
+            "database": 2
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.16",
+            "port": 11552,
+            "database": 2
+        }
+    ],
+
+        "im_redis_sequence": [
+        {
+            "type": "master",
+            "host": "10.19.22.11",
+            "port": 11552,
+            "database": 3
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.16",
+            "port": 11552,
+            "database": 3
+        }
+    ],
+
+        "im_redis_store": [
+        {
+            "type": "master",
+            "host": "10.19.22.46",
+            "port": 11552,
+            "database": 1
+        },
+        {
+            "type": "slave",
+            "host": "10.19.21.63",
+            "port": 11552,
+            "database": 1
+        }
+    ],
+        "im_redis_user": [
+        {
+            "type": "master",
+            "host": "10.19.22.46",
+            "port": 11552,
+            "database": 2
+        },
+        {
+            "type": "slave",
+            "host": "10.19.21.63",
+            "port": 11552,
+            "database": 2
+        }
+    ],
+
+        "im_redis_unread": [
+        {
+            "type": "master",
+            "host": "10.19.22.19",
+            "port": 11552,
+            "database": 1
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.31",
+            "port": 11552,
+            "database": 1
+        }
+    ],
+        "im_redis_msg": [
+        {
+            "type": "master",
+            "host": "10.19.22.19",
+            "port": 11552,
+            "database": 2
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.31",
+            "port": 11552,
+            "database": 2
+        }
+    ],
+
+        //////////////////////////////////////////////////////
+        // 官方推送redis配置
+        "im_redis_official_push_0": [
+        {
+            "type": "master",
+            "host": "10.19.22.31",
+            "port": 11551,
+            "database": 0
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.19",
+            "port": 11551,
+            "database": 0
+        }
+    ],
+        "im_redis_official_push_1": [
+        {
+            "type": "master",
+            "host": "10.19.22.16",
+            "port": 11551,
+            "database": 0
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.11",
+            "port": 11551,
+            "database": 0
+        }
+    ],
+        "im_redis_official_push_2": [
+        {
+            "type": "master",
+            "host": "10.19.21.63",
+            "port": 11551,
+            "database": 0
+        },
+        {
+            "type": "slave",
+            "host": "10.19.22.46",
+            "port": 11551,
+            "database": 0
+        }
+    ],
+        "im_redis_official_push_3": [
+        {
+            "type": "master",
+            "host": "10.17.21.31",
+            "port": 11551,
+            "database": 0
+        },
+        {
+            "type": "slave",
+            "host": "10.15.14.76",
+            "port": 11551,
+            "database": 0
+        }
+    ],
+}
